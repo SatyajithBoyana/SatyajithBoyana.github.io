@@ -83,16 +83,27 @@
                   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                   <div class="g-recaptcha" data-sitekey="6LcQgFopAAAAAMvcgQUrDp3-Qa2fmuqgwRKtxEtV" data-callback="verifyCaptcha"></div>
                 </div>
-              <div class="form-group">
-                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
-              </div>
               <!-- <div class="form-group">
-                <button type="button" disabled="disabled" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large" data-translate="comment_btn_submit">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
               </div> -->
+              <div class="form-group">
+                <button type="button" disabled="disabled" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large" data-translate="comment_btn_submit">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+              </div>
             </form>
           </div>
+          <script>
+                var verifyCaptcha = function(response) {
+                  if(response.length == 0) {
+                  } else {
+                      var _el=$('#comment-form-submit');
+                      _el.removeAttr("disabled");
+                      _el.addClass('button-primary dark-blue-bg');
+                      _el.attr('aria-disabled', 'false');
+                      _el.attr('type', 'submit');
+                  }
+              };
+          </script>
           <!-- End new comment form -->
-          {% if site.reCaptcha.siteKey %}<script async src="https://www.google.com/recaptcha/api.js"></script>{% endif %}
         {% endif %}
       </section>
     {% when "staticman" %}
