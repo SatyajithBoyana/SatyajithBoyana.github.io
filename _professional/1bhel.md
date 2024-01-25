@@ -15,4 +15,6 @@ location: "Hyderabad, TG, India"
 **Timeline**: May '12 - Jul '12
 <br>
 **Project Details**:
-This project focused on the examination of axial flow industrial gas turbines, involving a detailed exploration of compressor technology. The analysis delved into the characteristics of rotor and stator blades, provided an overview of the combustion system, scrutinized turbine rotor principles, and explored various applications within the field. The project was carried out at [BHEL](https://www.bhel.com/).
+This project focused on the examination of axial flow industrial gas turbines, involving a detailed exploration of compressor technology. 
+
+The analysis delved into the characteristics of rotor and stator blades, provided an overview of the combustion system, scrutinized turbine rotor principles, and explored various applications within the field. The project was carried out at [BHEL](https://www.bhel.com/).
