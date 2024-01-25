@@ -71,26 +71,25 @@
                 <input type="hidden" name="options[slug]" value="{{ page.slug }}">
                 <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
                 <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
-                <p> {{site.reCaptcha.siteKey}}, {{site.reCaptcha.secret}} </p>
-                {% if site.reCaptcha.siteKey %}<input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">{% endif %}
-                {% if site.reCaptcha.secret %}<input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">{% endif %}
+                {% if site.reCaptcha.enabled %}<input type="hidden" name="options[reCaptcha][siteKey]" value="6LcQgFopAAAAAMvcgQUrDp3-Qa2fmuqgwRKtxEtV">{% endif %}
+                {% if site.reCaptcha.enabled %}<input type="hidden" name="options[reCaptcha][secret]" value="tV3acNvuPCx8jAC2RMjk8ctcNcRKS6BpjdJT7Fr981Nt5CqN/n0dNrpp8i+igFOGTpN6zQcNRlmxIhte0TFSUACBHJ+O7si5vmVm73ZWUvaUO87gNvXknqmjd7LFN/PXSg4eLKY64qqjKh3cuocasY0I+5u47GjCQW081cWpBHOt0L1f2BFilEa++QG36OfR/8+hP2cpAvkgSruP3nPJCUarCKvoW5tY4JSGxeE/aQbRrLq6cC8NGOkKqDHQmsrdoi7mcLE3NWoFIv/9Dm5wU8fuO8zu3i/ARc8NAL9BO/yq3eEyNHvZSuo4QiSntZ8uvEFZL5odZiElQnsymaq5yirJlBu2/qHu7n63Q9+ODxAixro+Dzl4n7yKDvaxYa4QIbieJQRhkc632i9s4Ro5zTILNXTPolL/k8nBmImYNG6vIDgYpaouNfK7/OZLoQhGJi6FiFiaDltfQkbJtg1f5cEy1kLPscz3XwiGWFZ60sthbLZB8+1sgDidfRViL1ETR5JPVqH7G/qXwwYJ1iWvyRKQeprtvhq5SnejLPNGcLl2NlEs25f0Wv1RuJCB0T8uFTIOuHHdgjXd8fiXFDSPvCDo9rHdIkkILFW3CTUfXvkhWvc8WYs7rggYdYt0qCSDOiw+0KIfs5X/hnCCgryB+Zfam09hLevMXRUMUret/cA=">{% endif %}
               </div>
               <!-- Start comment form alert messaging -->
               <p class="hidden js-notice">
                 <strong class="js-notice-text"></strong>
               </p>
               <!-- End comment form alert messaging -->
-              {% if site.reCaptcha.siteKey %}
+              {% if site.reCaptcha.enabled %}
                 <div class="form-group">
-                  <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" data-callback="verifyCaptcha"></div>
+                  <div class="g-recaptcha" data-sitekey="6LcQgFopAAAAAMvcgQUrDp3-Qa2fmuqgwRKtxEtV" data-callback="verifyCaptcha"></div>
                 </div>
               {% endif %}
-              <!-- <div class="form-group">
-                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
-              </div> -->
               <div class="form-group">
-                <button type="button" disabled="disabled" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large" data-translate="comment_btn_submit">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
               </div>
+              <!-- <div class="form-group">
+                <button type="button" disabled="disabled" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large" data-translate="comment_btn_submit">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+              </div> -->
             </form>
           </div>
           <!-- End new comment form -->
