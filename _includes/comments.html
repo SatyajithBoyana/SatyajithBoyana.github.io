@@ -81,11 +81,14 @@
               <!-- End comment form alert messaging -->
               {% if site.reCaptcha.siteKey %}
                 <div class="form-group">
-                  <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+                  <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" data-callback="verifyCaptcha"></div>
                 </div>
               {% endif %}
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+              </div> -->
+              <div class="form-group">
+                <button type="button" disabled="disabled" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large" data-translate="comment_btn_submit">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
               </div>
             </form>
           </div>
