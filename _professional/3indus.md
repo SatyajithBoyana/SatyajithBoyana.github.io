@@ -17,4 +17,4 @@ location: "Chennai, TN, India"
 **Project Details**:
 The main objective of this project was to offer a cost-effective solution for the immediate chilling of milk at dairy farms, aiming to enhance the shelf life of the milk.
 
-Designed and fabricated a cost-effective 3 fluid (ammonia as a refrigerant, water as an absorbent, and hydrogen as the carrier gas) VARS of 0.5 TR capacity with biogas as the heat source. The successful completion of this project was made possible through collaboration with [Indus Refrigeration Private Ltd.](https://www.indusref.com/).
+Designed and fabricated a cost-effective 3 fluid (ammonia as a refrigerant, water as an absorbent, and hydrogen as the carrier gas) VARS of 0.5 TR capacity with biogas as the heat source. The successful completion of this project was made possible through collaboration with [Indus Refrigeration Private Ltd.](https://www.indusref.com/)
