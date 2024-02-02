@@ -36,7 +36,7 @@ Developed a finite element (FE) model for the IBR sub-model, ensuring that the m
 <br>
 **Client**: Pratt & Whitney
 <br>
-**Timeline**: Jan '15 - Apr '15
+**Timeline**: May '15 - Nov '15
 <br>
 **Project Details**:
 The aim of this project was to conduct static stress analysis on the front hub with a balance mass and rivets. The redesign of the model is focused on assessing the life at critical locations such as the front hub oil drain slots, flow hole, rivet hole, and balance cut location. This evaluation aligns with the specifications outlined in the engineering statement of work (ESW). Additionally, the project involved checking the deflection of the front hub arm and ensuring clearance between the front hub and the stator knife edge.
@@ -58,7 +58,7 @@ Attributes of the global model were defined using the Pratt and Whitney Automode
 
 <h3>Comprehensive Six-Month Induction Training: Bridging Theory to Industry Excellence</h3>
 <br>
-**Timeline**: Jul '14 - Dec '15
+**Timeline**: Jul '14 - Dec '14
 <br>
 **Project Details**:
 After completing my college education in mechanical engineering and joining [Cyient Ltd.](https://www.cyient.com/engineering/mechanical-engineering), I underwent an extensive six-month induction training program. This program extensively covered industry best practices and ensured I gained a thorough understanding of essential CAD/CAE tools. This immersive training program laid a solid foundation for my professional journey, providing me with the necessary skills and knowledge to excel in my role as a mechanical design engineer.
