@@ -190,6 +190,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  academicprojects:
+    output: true
+    permalink: /:collection/:path/
   professional:
     output: true
     permalink: /:collection/:path/
@@ -259,6 +262,15 @@ defaults:
       layout: talk
       author_profile: false
       share: true
+  # _academicprojects
+  - scope:
+      path: ""
+      type: academicprojects
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
   # _professional
   - scope:
       path: ""
