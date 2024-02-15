@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div style="text-align: center;">
+    <!-- <figcaption>Fig 2: Results of Configuration 2</figcaption> -->
+  </div>
+  <div class="column">
+    <div style="text-align: center;">
+      <img src="/academicprojects/figures/GMM/Clustering based on 2 Gaussian Components.png"
+            style="width:100%"
+            alt="Clustering based on 2 Gaussian Components">
+      <!-- <figcaption>Numerical Solution</figcaption> -->
+    </div> 
+  </div>
+  <div class="column">
+    <div style="text-align: center;">
+      <img src="/academicprojects/figures/GMM/Clustering based on 3 Gaussian Components.png"
+            style="width:100%"
+            alt="Clustering based on 3 Gaussian Components">
+      <!-- <figcaption>Contact set $\Omega_0(t)$</figcaption> -->
+    </div>
+  </div>
+</div>
+</body>
+</html>
