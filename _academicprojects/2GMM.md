@@ -7,7 +7,7 @@ permalink: /academicprojects/GMM
 # date: 
 # location: 
 ---
-After reducing the dimensionality of the data through PCA, the density distribution of the cities preferring small, medium, or all sizes of avocados, as represented by the score plot, was estimated using GMMs. The Expectation Maximization (EM) algorithm, an iterative scheme, was used to determine the model parameters. Consequently, the data depicted in the score plot was effectively clustered into three distinct clusters. These clusters represent cities with high sales of small-sized avocados, cities with high-medium sized avocado sales, and cities with outlier sales in large-sized avocados. The project was coded in Python.
+After reducing the dimensionality of the data through PCA, the density distribution of the cities preferring small, medium, or all sizes of avocados, as represented by the score plot, was estimated using GMMs. The _expectation maximization_ (EM) algorithm, an iterative scheme, was used to determine the model parameters. Consequently, the data depicted in the score plot was effectively clustered into three distinct clusters. These clusters represent cities with high sales of small-sized avocados, cities with high-medium sized avocado sales, and cities with outlier sales in large-sized avocados. The project was coded in Python.
 
 {% include /include_academicprojects/GMM/GMM_scoreplot.html %}
 
