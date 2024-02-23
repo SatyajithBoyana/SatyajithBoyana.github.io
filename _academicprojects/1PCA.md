@@ -1,5 +1,5 @@
 ---
-title: "•	Avocado Size Preference in US Cities: Principal Component Analysis (PCA) of Volumetric Sales of Avocados in 2020"
+title: "Avocado Size Preference in US Cities: Principal Component Analysis (PCA) of Volumetric Sales of Avocados in 2020"
 collection: academicprojects
 permalink: /academicprojects/PCA
 # type: 
