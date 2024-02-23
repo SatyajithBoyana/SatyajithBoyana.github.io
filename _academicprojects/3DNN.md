@@ -7,7 +7,7 @@ permalink: /academicprojects/DNN
 # date: 
 # location: 
 ---
-The objective of this project is to design and train a dense neural network to classify the Iris flower into one of the three classes based on specific characteristics of the flower. The dataset utilized in this project is sourced from [here](https://archive.ics.uci.edu/ml/datasets/Iris). The design and optimizing of the neural network were implemented using [_Keras_](https://keras.io/getting_started/intro_to_keras_for_engineers/), a machine learning library executed on the tensor flow machine learning platform. The optimization algorithm employed to determine the optimal weights and biases is *Stochastic Gradient Descent* (SGD) with a default learning rate of 0.01. The project was coded in Python.
+The objective of this project was to classify the Iris flower into one of three classes based on specific characteristics of the flower. For this purpose, a dense neural network capable of performing the required task was developed. The dataset utilized in this project is sourced from https://archive.ics.uci.edu/ml/datasets/Iris. The design and optimization of the neural network were implemented using the _Keras_ machine learning library. To determine the optimal weights and biases, the employed optimization algorithm was _Stochastic Gradient Descent_ (SGD) with a default learning rate  of 0.01.
 
 <h2> Dense Neural Network Based Categorization </h2>
 
