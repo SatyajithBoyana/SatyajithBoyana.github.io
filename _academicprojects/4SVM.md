@@ -1,5 +1,5 @@
 ---
-title: "Classification of Iris Flower Based on Sepal Length and Petal Length Using Support Vector Machines"
+title: "Classification of Iris Flower Based on Sepal Length and Petal Length Using Support Vector Machines (SVMs)"
 collection: academicprojects
 permalink: /academicprojects/SVM
 # type: 
