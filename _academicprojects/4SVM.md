@@ -1,5 +1,5 @@
 ---
-title: "Categorization of Iris Data Based on Sepal Length and Petal Length Using Support Vector Machines"
+title: "Classification of Iris Flower Based on Sepal Length and Petal Length Using Support Vector Machines"
 collection: academicprojects
 permalink: /academicprojects/SVM
 # type: 
@@ -7,6 +7,8 @@ permalink: /academicprojects/SVM
 # date: 
 # location: 
 ---
+The aim of this project was to use SVMs to classify the Iris flower into one of the three classes: Iris setosa, Iris versicolor, and Iris virginica, based on the sepal length and petal length of the flower. To fulfill this purpose, three SVMs were established, each employing distinct kernels and inequality constraints, effectively addressing the specified task. The design of the SVM and the optimization of the SVM were executed using the [*SVC*](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC) function from [*scikit-learn*](https://scikit-learn.org/stable/index.html), a machine learning library, and the results from the three configurations were compared and evaluated for accuracy.
+
 The aim of this project is to classify the Iris flower into one of the three classes - Iris Setosa, Iris Versicolor, Iris Virginica, based on the sepal length and petal length of the flower using support vector machines. For this purpose, I created three Support Vector Machines (SVMs) using different kernels and inequality constraints, each fulfilling the required task. The design of the SVMs and the optimizing of the SVMs were executed using the [*SVC*](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC) function from [*scikit-learn*](https://scikit-learn.org/stable/index.html), a machine learning library, and the results from the three configurations were compared and evaluated for accuracy. The project was coded in Python.
 
 <h2> SVM Based Categorization </h2>
