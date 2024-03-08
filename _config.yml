@@ -43,7 +43,7 @@ comments:
     theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
     branch               :  "master"
-    endpoint             :  "https://sj-staticman.azurewebsites.net/v3/entry/github/"
+    endpoint             :  "https://sj-staticman-e1e324188f93.herokuapp.com/v3/entry/github/"
   # reCaptcha: reCaptcha is always enabled. Do not force turn it off!
   # siteKey                : "6LcQgFopAAAAAMvcgQUrDp3-Qa2fmuqgwRKtxEtV"
   # secret                 : "tV3acNvuPCx8jAC2RMjk8ctcNcRKS6BpjdJT7Fr981Nt5CqN/n0dNrpp8i+igFOGTpN6zQcNRlmxIhte0TFSUACBHJ+O7si5vmVm73ZWUvaUO87gNvXknqmjd7LFN/PXSg4eLKY64qqjKh3cuocasY0I+5u47GjCQW081cWpBHOt0L1f2BFilEa++QG36OfR/8+hP2cpAvkgSruP3nPJCUarCKvoW5tY4JSGxeE/aQbRrLq6cC8NGOkKqDHQmsrdoi7mcLE3NWoFIv/9Dm5wU8fuO8zu3i/ARc8NAL9BO/yq3eEyNHvZSuo4QiSntZ8uvEFZL5odZiElQnsymaq5yirJlBu2/qHu7n63Q9+ODxAixro+Dzl4n7yKDvaxYa4QIbieJQRhkc632i9s4Ro5zTILNXTPolL/k8nBmImYNG6vIDgYpaouNfK7/OZLoQhGJi6FiFiaDltfQkbJtg1f5cEy1kLPscz3XwiGWFZ60sthbLZB8+1sgDidfRViL1ETR5JPVqH7G/qXwwYJ1iWvyRKQeprtvhq5SnejLPNGcLl2NlEs25f0Wv1RuJCB0T8uFTIOuHHdgjXd8fiXFDSPvCDo9rHdIkkILFW3CTUfXvkhWvc8WYs7rggYdYt0qCSDOiw+0KIfs5X/hnCCgryB+Zfam09hLevMXRUMUret/cA="
