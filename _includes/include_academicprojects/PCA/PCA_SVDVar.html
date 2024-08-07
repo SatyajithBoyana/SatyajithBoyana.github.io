@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div style="text-align: center;">
+    <!-- <figcaption>Fig 1: Results of Configuration 1</figcaption> -->
+  </div>
+  <div class="column">
+    <div style="text-align: center;">
+      <img src="/academicprojects/figures/PCA/singularvalues.png"
+            style="width:100%"
+            alt="singular values">
+    </div> 
+  </div>
+  <div class="column">
+    <div style="text-align: center;">
+      <img src="/academicprojects/figures/PCA/Variance by 3 PCs.png"
+            style="width:100%"
+            alt="Variance by 3 PCs">
+    </div>
+  </div>
+</div>
+</body>
+</html>

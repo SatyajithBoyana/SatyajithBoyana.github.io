@@ -1,0 +1,20 @@
+# main links links
+main:
+  - title: "Teaching"
+    url: /teaching/    
+    
+  - title: "Research"
+    url: /research/  
+    
+  # - title: "Publications"
+  #   url: /publications/
+
+  - title: "Talks & Presentations"
+    url: /talks/
+
+  - title: "Academic Projects"
+    url: /academicprojects/
+
+  - title: "Professional Experience"
+    url: /professional/
+    
