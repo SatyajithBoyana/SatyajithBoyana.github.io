@@ -7,7 +7,11 @@ permalink: /research/EOCP
 # date: 
 # location: 
 ---
-We proposed a numerical scheme to reduce an elliptic optimal control problem with control constraints to a finite-dimensional optimization problem with equality and inequality-type constraints and established the order of convergence of the error as we refine the triangulation of the polygonal domain $\Omega \subset \mathbb{R}^2$.
+We proposed a numerical scheme to reduce an elliptic optimal control problem with control constraints to a finite-dimensional optimization problem with equality and inequality-type constraints and established the order of convergence of the error as we refine the triangulation of the polygonal domain $\Omega \subset \mathbb{R}^2$. The figures below present a comparison between the exact solutions and numerical solutions from a specific numerical experiment.
+<br>
+{% include /include_research/EOCP/EOCP_NumEx2_pics_control.html %}
+<br>
+{% include /include_research/EOCP/EOCP_NumEx2_pics_state.html %}
 
 Let $\Omega$ contained in $\mathbb{R}^2$ be a bounded convex polygonal domain with Lipschitz boundary $\partial \Omega$. 
 

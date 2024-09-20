@@ -5,54 +5,74 @@
   box-sizing: border-box;
 }
 
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
+.row {
+  display: flex;
+  justify-content: space-around; /* Align items with space between them */
+  flex-wrap: wrap; /* Ensure the images wrap if the screen size is too small */
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.column {
+  flex: 1 1 20%; /* Flex-grow, flex-shrink, and base width */
+  padding: 5px;
+  max-width: 25%; /* Limit maximum width */
+}
+
+img {
+  width: 100%; /* Make images responsive */
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .column {
+    max-width: 50%; /* Adjust columns for smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .column {
+    max-width: 100%; /* Full-width columns for very small screens */
+  }
 }
 </style>
 </head>
 <body>
-<div class="row">
-  <div class="column">
-    <div style="text-align: center;">
-        <img src="/research/collaborators/YiZhang_.jpg"
-        style="width:50%"
-        alt="Picture of Dr. Yi Zhang">
-        <figcaption><a href="https://mathstats.uncg.edu/people/directory/y-zhang/">Dr. Yi Zhang (Advisor)</a></figcaption>
-    </div> 
-  </div>
-  <div class="column">
-    <div style="text-align: center;">
-        <img src="/research/collaborators/AaronRapp__.jpg"
-        style="width:45%"
-        alt="Picture of Dr. Aaron Rapp">
-        <figcaption><a href="https://www.uvi.edu/directory/faculty/aaron-rapp.html">Dr. Aaron Rapp</a></figcaption>
+  <div class="row">
+    <div class="column">
+      <div style="text-align: center;">
+          <img src="/research/collaborators/YiZhang_.jpg"
+          style="width:50%"
+          alt="Picture of Dr. Yi Zhang">
+          <figcaption><a href="https://mathstats.uncg.edu/people/directory/y-zhang/">Dr. Yi Zhang (Advisor)</a></figcaption>
+      </div> 
+    </div>
+    <div class="column">
+      <div style="text-align: center;">
+          <img src="/research/collaborators/AaronRapp__.jpg"
+          style="width:45%"
+          alt="Picture of Dr. Aaron Rapp">
+          <figcaption><a href="https://www.uvi.edu/directory/faculty/aaron-rapp.html">Dr. Aaron Rapp</a></figcaption>
+      </div>
+    </div>
+    <div class="column">
+      <div style="text-align: center;">
+          <img src="/research/collaborators/SijingLiu_1_.jpg"
+          style="width:65%"
+          alt="Picture of Dr. Sijing Liu">
+          <figcaption><a href="https://sites.google.com/view/sijingliu/home">Dr. Sijing Liu</a></figcaption>
+      </div>
+    </div>
+    <div class="column">
+      <div style="text-align: center;">
+          <img src="/research/collaborators/TomLewis_.jpg"
+          style="width:50%"
+          alt="Picture of Dr. Tom Lewis">
+          <figcaption><a href="https://mathstats.uncg.edu/people/directory/lewis/">Dr. Tom Lewis (Mentor)</a></figcaption>
+      </div>
     </div>
   </div>
-  <div class="column">
-    <div style="text-align: center;">
-        <img src="/research/collaborators/SijingLiu_1_.jpg"
-        style="width:65%"
-        alt="Picture of Dr. Sijing Liu">
-        <figcaption><a href="https://sites.google.com/view/sijingliu/home">Dr. Sijing Liu</a></figcaption>
-    </div>
-  </div>
-  <div class="column">
-    <div style="text-align: center;">
-        <img src="/research/collaborators/TomLewis_.jpg"
-        style="width:50%"
-        alt="Picture of Dr. Tom Lewis">
-        <figcaption><a href="https://mathstats.uncg.edu/people/directory/lewis/">Dr. Tom Lewis (Mentor)</a></figcaption>
-    </div>
-  </div>
-</div>
-</body>
+  </body>
 </html>

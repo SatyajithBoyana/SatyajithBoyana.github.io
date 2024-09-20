@@ -7,7 +7,9 @@ permalink: /research/CD
 # date: 
 # location: 
 ---
-We proposed and analyzed a numerically stable and convergent scheme for the convection-diffusion (CD) equation in the convection-dominated regime and derived a local order of convergence of $O(ℎ^{1.5})$ whenever the exact solution is of $𝐻^2(\Omega)$ regularity.
+We proposed and analyzed a numerically stable and convergent scheme for the convection-diffusion (CD) equation in the convection-dominated regime and derived a local order of convergence of $O(ℎ^{1.5})$ whenever the exact solution is of $𝐻^2(\Omega)$ regularity. The following figures illustrate a comparison between the exact and numerical solution from a particular numerical experiment.
+<br>
+{% include /include_research/CD/CD_NumEx2_pics.html %}
 
 Given a convex polygonal domain $\Omega$ in $\mathbb{R}^2$ with Lipschitz boundary $\partial \Omega$, the convection-diffusion (CD) equation is:
 

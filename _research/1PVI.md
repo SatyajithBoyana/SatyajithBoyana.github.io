@@ -7,7 +7,9 @@ permalink: /research/PVI
 # date: 
 # location: 
 ---
-By utilizing a symmetric dual-wind DG (DWDG) spatial discretization and a backward Euler temporal discretization, we proposed a fully discrete scheme designed to solve a parabolic variational inequality. We also determined the rate of convergence of the error in space and time in suitable norms.
+By utilizing a symmetric dual-wind DG (DWDG) spatial discretization and a backward Euler temporal discretization, we proposed a fully discrete scheme designed to solve a parabolic variational inequality. We also determined the rate of convergence of the error in space and time in suitable norms. 
+<br>
+{% include /include_research/PVI/PVI_NumEx1_pics.html %}
 
 Let $\Omega$ be a bounded convex polygonal domain in $\mathbb{R}^2$, $T_F > 0$, and set $J = [0, T_F]$. 
 

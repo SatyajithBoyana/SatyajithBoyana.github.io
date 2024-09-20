@@ -1,0 +1,93 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  justify-content: center; /* Ensures even spacing between images */
+  align-items: center; /* Vertically aligns images */
+}
+
+.column {
+  flex: 1; /* Each column will take equal space */
+  padding: 1px;
+  max-width: 50%; /* Limits the width of each column to 50% of the row */
+}
+
+img {
+  width: 100%; /* Image takes up the full width of the column */
+  height: auto; /* Maintain aspect ratio */
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 10px;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+    <div style="text-align: center;">
+      <img src="/research/figures/PVI/PVI_NumEx1_1.gif"
+            alt="Numerical solution for numerical experiment 1: Zero Obstable Problem">
+      <figcaption>Numerical Solution</figcaption>
+    </div> 
+  </div>
+  <div class="column">
+    <div style="text-align: center;">
+      <img src="/research/figures/PVI/PVI_NumEx1_2.gif"
+            alt="Contact sets for numerical experiment 1: Zero Obstable Problem">
+      <figcaption>Contact set $\Omega_0(t)$</figcaption>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+<!-- <html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+    <div style="text-align: center;">
+      <img src="/research/figures/PVI/PVI_NumEx1_1.gif"
+            style="width:125%"
+            alt="Numerical solution for numerical experiment 1: Zero Obstable Problem">
+      <figcaption>Numerical Solution</figcaption>
+    </div> 
+  </div>
+  <div class="column">
+    <div style="text-align: center;">
+      <img src="/research/figures/PVI/PVI_NumEx1_2.gif"
+            style="width:125%"
+            alt="Contact sets for numerical experiment 1: Zero Obstable Problem">
+      <figcaption>Contact set $\Omega_0(t)$</figcaption>
+    </div>
+  </div>
+</div>
+</body>
+</html> -->
