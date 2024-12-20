@@ -42,7 +42,7 @@ comments:
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
     theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
-    branch               :  "master"
+    branch               :  "main"
     endpoint             :  "https://sj-staticman.azurewebsites.net/v3/entry/github/"
   # reCaptcha: reCaptcha is always enabled. Do not force turn it off!
   # siteKey                : "6LcQgFopAAAAAMvcgQUrDp3-Qa2fmuqgwRKtxEtV"
