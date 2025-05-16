@@ -1,16 +1,20 @@
 # main links links
 main:
-   - title: "Teaching"
+  - title: "Teaching"
     url: /teaching/    
-   - title: "Research"
+    
+  - title: "Research"
     url: /research/  
     
   # - title: "Publications"
   #   url: /publications/
-   - title: "Talks & Presentations"
+
+  - title: "Talks & Presentations"
     url: /talks/
-   - title: "Academic Projects"
+
+  - title: "Academic Projects"
     url: /academicprojects/
-   - title: "Professional Experience"
+
+  - title: "Professional Experience"
     url: /professional/
     
