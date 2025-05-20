@@ -3,7 +3,7 @@ title: "@ UNCG"
 collection: teaching
 type: "Undergraduate courses"
 permalink: /teaching/teaching_UNCG
-designation: ""
+designation: "Graduate Teaching Associate"
 venue: "Department of Mathematics & Statistics"
 #date: 2019/08/15
 location: "Greensboro, NC"
