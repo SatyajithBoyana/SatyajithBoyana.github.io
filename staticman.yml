@@ -102,14 +102,3 @@ comments:
   #   # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
   #   # For more information, https://staticman.net/docs/encryption
   #   secret: "tV3acNvuPCx8jAC2RMjk8ctcNcRKS6BpjdJT7Fr981Nt5CqN/n0dNrpp8i+igFOGTpN6zQcNRlmxIhte0TFSUACBHJ+O7si5vmVm73ZWUvaUO87gNvXknqmjd7LFN/PXSg4eLKY64qqjKh3cuocasY0I+5u47GjCQW081cWpBHOt0L1f2BFilEa++QG36OfR/8+hP2cpAvkgSruP3nPJCUarCKvoW5tY4JSGxeE/aQbRrLq6cC8NGOkKqDHQmsrdoi7mcLE3NWoFIv/9Dm5wU8fuO8zu3i/ARc8NAL9BO/yq3eEyNHvZSuo4QiSntZ8uvEFZL5odZiElQnsymaq5yirJlBu2/qHu7n63Q9+ODxAixro+Dzl4n7yKDvaxYa4QIbieJQRhkc632i9s4Ro5zTILNXTPolL/k8nBmImYNG6vIDgYpaouNfK7/OZLoQhGJi6FiFiaDltfQkbJtg1f5cEy1kLPscz3XwiGWFZ60sthbLZB8+1sgDidfRViL1ETR5JPVqH7G/qXwwYJ1iWvyRKQeprtvhq5SnejLPNGcLl2NlEs25f0Wv1RuJCB0T8uFTIOuHHdgjXd8fiXFDSPvCDo9rHdIkkILFW3CTUfXvkhWvc8WYs7rggYdYt0qCSDOiw+0KIfs5X/hnCCgryB+Zfam09hLevMXRUMUret/cA="
-rsa:
-  publicKey: |
------BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqE8DWbonGjpA8eoSTITv
-tkaBnM4IHUW/0p1PkmimcbZAue2lWquxrtRTPujwVklU8zUOEmo9f4AaFjvGDN40
-O2x/n310CP5kqhzieaqX3mr2L0oxYGEMfCZWoYkIkoyLpC0qMQ4J0HmEIDYOWvO7
-0hky+5p2PZBFFME5nwnDm9sMTp3rE7Umjohxr+lIgrZ4AVw0mXG18QRR/hVnSeoZ
-0FtnDIzGNSJj7zu3QZ9G8UGLl1sC2zNZS8sGW8duoehglYS8JVISTQhIdT9qAXLl
-4XQ6d2ZLFFTbrTGJNbH0INWpg+fH6CHjTaGoww5/DYfN+pCpAz/dyLmVmAlA2npg
-dQIDAQAB
------END PUBLIC KEY-----
