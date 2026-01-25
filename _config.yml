@@ -113,7 +113,18 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
+#icons
+  links:
+    - label: "Lakeland, FL"
+      icon: "fas fa-map-marker-alt"
+    - label: "Florida Polytechnic University"
+      icon: "fas fa-university"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:sbommanaboyana@floridapoly.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/satyajith-bommana-boyana/"
 
 
 # Reading Files
